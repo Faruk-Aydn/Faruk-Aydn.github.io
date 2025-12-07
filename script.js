@@ -14,28 +14,44 @@ const appModel = {
     },
     projects: [
         {
-            title: 'Görev Yönetimi (Android)',
+            title: 'Mahalle Ustası (Android)',
             type: 'Mobil Uygulama',
             description:
-                'Kotlin ve MVVM ile geliştirilmiş; görev ekleme, filtreleme ve bildirim özelliklerine sahip Android görev yönetim uygulaması.',
-            techStack: ['Kotlin', 'Android', 'MVVM', 'Room'],
-            link: '#',
+                'MahalleUstasiApp: Kullanıcıların mahallelerindeki ustaları ve hizmet sağlayıcılarını bulabildiği Android uygulaması.',
+            techStack: ['Kotlin', 'Android', 'MVVM'],
+            link: 'https://github.com/Faruk-Aydn/MahalleUstasiApp',
         },
         {
-            title: 'Alışveriş Listesi (Jetpack Compose)',
+            title: 'smartQuiz (Android)',
             type: 'Mobil Uygulama',
             description:
-                'Jetpack Compose ile modern UI yaklaşımı kullanılarak hazırlanmış basit ve sezgisel alışveriş listesi uygulaması.',
-            techStack: ['Kotlin', 'Jetpack Compose', 'ViewModel'],
-            link: '#',
+                'smartQuiz: Kullanıcıların farklı kategorilerde sorularla kendini test edebildiği, Kotlin ile geliştirilmiş quiz uygulaması.',
+            techStack: ['Kotlin', 'Android', 'MVVM'],
+            link: 'https://github.com/Faruk-Aydn/smartQuiz',
         },
         {
-            title: 'Hava Durumu (API Entegrasyonlu)',
+            title: 'KuranKursApp (Android)',
             type: 'Mobil Uygulama',
             description:
-                'Harici REST API ile gerçek zamanlı hava durumu bilgisi gösteren, responsive kart tasarımına sahip deneysel Android projesi.',
-            techStack: ['Kotlin', 'Retrofit', 'REST API', 'Coroutines'],
-            link: '#',
+                'KuranKursApp: Kur’an kursu öğrencileri için ders içerikleri, takip ve bilgilendirme özellikleri sunan Android uygulaması.',
+            techStack: ['Kotlin', 'Android'],
+            link: 'https://github.com/Faruk-Aydn/KuranKursApp',
+        },
+        {
+            title: 'VisionGuide (Android)',
+            type: 'Mobil Uygulama',
+            description:
+                'VisionGuide: Görsel tanıma ve rehberlik odaklı, Android ekosistemi için geliştirilen deneysel bir proje.',
+            techStack: ['Kotlin', 'Android'],
+            link: 'https://github.com/HalitACET/VisionGuide',
+        },
+        {
+            title: 'Warning (Android)',
+            type: 'Mobil Uygulama',
+            description:
+                'Warning: Uyarı ve bilgilendirme mekanizmalarını merkezine alan, Kotlin ile geliştirilmiş Android uygulaması.',
+            techStack: ['Kotlin', 'Android'],
+            link: 'https://github.com/Faruk-Aydn/Warning',
         },
     ],
     certificates: [
